@@ -130,7 +130,7 @@ resource "aws_iam_role_policy" "allow_s3_all" {
 EOF
 
 }
-
+}
 # resource "aws_instance" "nginx2" {
 #   ami                    = nonsensitive(data.aws_ssm_parameter.amzn2_linux.value)
 #   instance_type          = var.instance_type
